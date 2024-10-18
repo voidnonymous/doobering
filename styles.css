@@ -1,9 +1,9 @@
 @font-face {
-    font-family: '0xProto';
+    font-family: '0xProto-Regular';
   src: url(https://voidnonymous.github.io/doobering/0xProto-Regular.tff)
   src: url(https://voidnonymous.github.io/doobering/0xProto-Regular.woff2)
 }
 p {
-    font-family: '0xProto';
+    font-family: '0xProto-Regular';
     color: darkgreen;
 }
