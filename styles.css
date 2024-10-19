@@ -1,9 +1,33 @@
-@font-face {
-    font-family: '0xProto-Regular';
-  src: url(https://voidnonymous.github.io/doobering/0xProto-Regular.tff)
-  src: url(https://voidnonymous.github.io/doobering/0xProto-Regular.woff2)
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,500;1,500&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+</style>
+// <uniquifier>: Use a unique and descriptive class name
+
+.source-code-pro-<uniquifier> {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}.ubuntu-mono-regular {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
-p {
-    font-family: '0xProto-Regular';
-    color: darkgreen;
+
+.ubuntu-mono-bold {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-mono-regular-italic {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-mono-bold-italic {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
 }
