@@ -27,4 +27,8 @@
     font-style: normal;
     font-display: swap;
 }
+body {
+  font: 15px '0xProto Regular', monospaced;
+}
+
 
